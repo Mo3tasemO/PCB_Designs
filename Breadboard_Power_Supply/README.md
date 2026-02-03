@@ -51,6 +51,12 @@ It is optimized to plug directly into a standard breadboard, allowing quick and 
 - Educational electronics labs  
 
 ---
+### 2D Layout & Routing
+![PCB Layout](Screenshot 2026-02-03 225834.png)  
+
+### 3D Render
+![3D Render](Screenshot 2026-02-03 225921.png)  
+            (Screenshot 2026-02-03 225950.png)
 
 ## 📂 Project Structure
 
