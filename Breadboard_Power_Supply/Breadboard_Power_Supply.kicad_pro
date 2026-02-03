@@ -532,7 +532,7 @@
       },
       {
         "netclass": "power_output",
-        "pattern": "/PWR_OUTPUT"
+        "pattern": "/PWR_OUTPUT_TOP"
       },
       {
         "netclass": "power_output",
@@ -541,6 +541,10 @@
       {
         "netclass": "power_output",
         "pattern": "/5V"
+      },
+      {
+        "netclass": "power_output",
+        "pattern": "/PWR_OUTPUT_BOT"
       }
     ]
   },

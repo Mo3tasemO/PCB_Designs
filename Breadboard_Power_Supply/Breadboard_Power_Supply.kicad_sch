@@ -5,9 +5,9 @@
 	(uuid "9c7b0b5e-38cf-4a80-944f-c467fea7ce75")
 	(paper "A4")
 	(title_block
-		(title "Simple_Power_Supply")
-		(date "2026-01-30")
-		(rev "1")
+		(title "Simple_Power_Supply_Schema")
+		(date "2026-02-03")
+		(rev "2")
 	)
 	(lib_symbols
 		(symbol "Connector:Barrel_Jack_Switch"
@@ -2895,7 +2895,7 @@
 		)
 		(uuid "1b84161f-692e-464a-af90-f5ab76cc8486")
 	)
-	(label "PWR_OUTPUT"
+	(label "PWR_OUTPUT_TOP"
 		(at 186.69 63.5 0)
 		(effects
 			(font
@@ -2925,7 +2925,7 @@
 		)
 		(uuid "82ce2110-cb7b-4069-b901-c166f876553d")
 	)
-	(label "PWR_OUTPUT"
+	(label "PWR_OUTPUT_BOT"
 		(at 186.69 107.95 0)
 		(effects
 			(font
