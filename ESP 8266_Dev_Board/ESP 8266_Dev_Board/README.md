@@ -54,11 +54,12 @@ The board breaks out all essential GPIOs via two main headers:
 *Double-layer design with optimized ground pours for RF stability.*
 
 ### 3D Render
-![3D Render](Screenshot_2026-02-03224841.png)  
-            (Screenshot_2026-02-03224912.png)
+![3D Render](Screenshot_2026-02-03224841.png)
+![3D Render](Screenshot_2026-02-03224912.png)
 *Fully assembled view showing component placement and compact form factor.*
 
 ---
 
 ## 📜 License
+
 This project is open-source. Feel free to use, modify, and distribute it for your own IoT applications.
