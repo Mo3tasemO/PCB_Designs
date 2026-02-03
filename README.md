@@ -26,7 +26,7 @@ Example how to embed images later:
 1. Open the folder of the project you like
 2. Open the `.kicad_pro` file in KiCad
 3. Plot Gerbers / Drill files yourself or use the existing `gerbers/` / `production/` folder (if present)
-4. Order from your favorite PCB fab 😄
+4. Order from your favorite PCB fab 
 
 **Warning:** Most designs here are **not production-tested** yet. You can use it at your own risk.
 
