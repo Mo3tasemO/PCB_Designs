@@ -56,7 +56,7 @@ It is optimized to plug directly into a standard breadboard, allowing quick and 
 
 ### 3D Render
 ![3D Render](Screenshot_2026-02-03225921.png)  
-            (Screenshot_2026-02-03225950.png)
+![3D Render](Screenshot_2026-02-03225950.png)
 
 ## 📂 Project Structure
 
@@ -66,3 +66,4 @@ It is optimized to plug directly into a standard breadboard, allowing quick and 
 ├── 3D_View/
 ├── Images/
 └── README.md
+
