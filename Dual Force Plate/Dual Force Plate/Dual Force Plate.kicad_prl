@@ -18,15 +18,15 @@
     "prototype_zone_fills": false,
     "selection_filter": {
       "dimensions": false,
-      "footprints": false,
+      "footprints": true,
       "graphics": false,
       "keepouts": false,
       "lockedItems": false,
       "otherItems": false,
-      "pads": false,
-      "text": false,
+      "pads": true,
+      "text": true,
       "tracks": false,
-      "vias": true,
+      "vias": false,
       "zones": false
     },
     "visible_items": [
@@ -89,16 +89,16 @@
       9
     ],
     "col_widths": [
-      162,
-      147,
-      91,
+      130,
+      118,
+      82,
       67,
-      91,
-      91,
-      91,
+      73,
+      84,
+      73,
       71,
-      91,
-      91
+      73,
+      73
     ],
     "custom_group_rules": [],
     "expanded_rows": [],

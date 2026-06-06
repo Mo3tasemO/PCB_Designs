@@ -3258,7 +3258,7 @@
 	)
 	(rectangle
 		(start 122.08 12)
-		(end 284.96 116.8)
+		(end 284.96 114.24)
 		(stroke
 			(width 0)
 			(type default)
@@ -3270,7 +3270,7 @@
 	)
 	(rectangle
 		(start 12.446 186.436)
-		(end 60.452 197.612)
+		(end 61.28 197.612)
 		(stroke
 			(width 0)
 			(type solid)
@@ -3281,9 +3281,9 @@
 		)
 		(uuid "e475a1a9-5e41-44d7-bba6-ab9a7ba265da")
 	)
-	(text "5V/3.7V/0.8A MT3608 -> 5V/0.506A (Required)"
+	(text "MT3608 -> 5V/0.506A (Required in Worst Case)"
 		(exclude_from_sim no)
-		(at 36.322 191.516 0)
+		(at 36.576 191.516 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3293,9 +3293,9 @@
 		)
 		(uuid "17bfba06-2c84-46ab-8f8d-577ef22b6d7b")
 	)
-	(text "ESP32 -> 5V/0.5A\nADC -> 5V/4*1.5mA\n"
+	(text "ESP32 (Worst Case) -> 5V/500mA\n4xLoad Cells ADCs -> 5V/6mA\n"
 		(exclude_from_sim no)
-		(at 22.86 195.072 0)
+		(at 29.972 195.326 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3304,9 +3304,9 @@
 		)
 		(uuid "4f2f9103-4a3c-45a9-a5d9-fa9382b586d8")
 	)
-	(text "ADC'S"
+	(text "Load Cell ADCs"
 		(exclude_from_sim no)
-		(at 17.018 88.646 0)
+		(at 24.638 88.646 0)
 		(effects
 			(font
 				(size 2 2)
@@ -3317,9 +3317,9 @@
 		)
 		(uuid "65fbba6c-d205-42bf-a159-34b1d3a53bcf")
 	)
-	(text "MCU"
+	(text "ESP32 MCU"
 		(exclude_from_sim no)
-		(at 125.984 14.478 0)
+		(at 131.572 14.478 0)
 		(effects
 			(font
 				(size 2 2)
@@ -3332,7 +3332,7 @@
 	)
 	(text "Battery_Indicator/RGB_LED"
 		(exclude_from_sim no)
-		(at 227.584 119.38 0)
+		(at 227.076 116.586 0)
 		(effects
 			(font
 				(size 2 2)
@@ -3356,9 +3356,9 @@
 		)
 		(uuid "cbc9e29d-0daf-430b-b02a-0fe1a80c9b07")
 	)
-	(text "MAX. P = 4W/2.96W -> P = 2.53W (Required)"
+	(text "MAX. P = 5V x 0.506A -> P = 2.53W (Required)"
 		(exclude_from_sim no)
-		(at 35.814 188.468 0)
+		(at 36.83 188.468 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3368,7 +3368,7 @@
 		)
 		(uuid "e2127e3e-500d-416d-948f-d2fa95c31479")
 	)
-	(text "POWER_MANAGEMENT"
+	(text "POWER MANAGEMENT"
 		(exclude_from_sim no)
 		(at 28.194 14.478 0)
 		(effects
@@ -3611,7 +3611,7 @@
 	)
 	(polyline
 		(pts
-			(xy 150.72 116.8) (xy 150.72 168.96)
+			(xy 150.72 114.24) (xy 150.72 168.96)
 		)
 		(stroke
 			(width 0)
@@ -3781,6 +3781,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 107.95) (xy 203.2 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34b1277d-e41e-4e0a-b867-92f04af3edbe")
+	)
+	(wire
+		(pts
 			(xy 49.53 116.84) (xy 62.23 116.84)
 		)
 		(stroke
@@ -3848,16 +3858,6 @@
 			(type default)
 		)
 		(uuid "4e47c4e7-0538-4c39-8031-77610fc238fe")
-	)
-	(wire
-		(pts
-			(xy 203.2 110.49) (xy 203.2 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f3a0dfe-d7e3-41c2-9d4b-5d81254e0f87")
 	)
 	(wire
 		(pts
@@ -4111,7 +4111,7 @@
 	)
 	(polyline
 		(pts
-			(xy 206.4 116.8) (xy 206.4 165.76)
+			(xy 206.4 114.24) (xy 206.4 165.76)
 		)
 		(stroke
 			(width 0)
@@ -4541,7 +4541,7 @@
 	)
 	(polyline
 		(pts
-			(xy 284.96 116.8) (xy 284.96 165.76)
+			(xy 284.96 114.24) (xy 284.96 165.76)
 		)
 		(stroke
 			(width 0)
@@ -6191,7 +6191,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 203.2 110.49 0)
+		(at 207.01 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6202,7 +6202,7 @@
 		(fields_autoplaced yes)
 		(uuid "33181f6d-b8d9-4cd7-9d83-6dc5a7da285c")
 		(property "Reference" "#PWR07"
-			(at 203.2 116.84 0)
+			(at 207.01 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6213,7 +6213,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.2 115.57 0)
+			(at 207.01 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6223,7 +6223,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 110.49 0)
+			(at 207.01 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6234,7 +6234,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 110.49 0)
+			(at 207.01 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6245,7 +6245,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 110.49 0)
+			(at 207.01 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7149,10 +7149,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "70254438-1ef3-4b67-930e-90db53b917e6")
 		(property "Reference" "U2"
-			(at 205.3433 107.95 0)
+			(at 205.994 106.934 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7163,7 +7162,7 @@
 			)
 		)
 		(property "Value" "ESP32-DevKitC"
-			(at 205.3433 110.49 0)
+			(at 217.17 107.442 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
