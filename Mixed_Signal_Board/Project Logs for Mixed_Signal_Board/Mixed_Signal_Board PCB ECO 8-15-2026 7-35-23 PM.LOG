@@ -1,0 +1,6 @@
+Added Pin To Net: NetName=SP Pin=Q1-7
+Added Pin To Net: NetName=SP_2 Pin=Q2-7
+Added Pin To Net: NetName=SP Pin=R19-2
+Added Pin To Net: NetName=SP_2 Pin=R43-2
+Added Member To Class: ClassName=[3] - STM32F103_Debugger Member=Component J2 Bergstrip 2.54mm
+Added Member To Class: ClassName=[3] - STM32F103_Debugger Member=Component X1 8Mhz
