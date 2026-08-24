@@ -8,6 +8,7 @@
 		(title "Dual_Force_Plate")
 		(date "2026-05-06")
 		(rev "1")
+		(company "Mo3_Tech")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"

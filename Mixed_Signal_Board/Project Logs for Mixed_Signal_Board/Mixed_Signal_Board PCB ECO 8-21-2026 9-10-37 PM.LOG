@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=GND Pin=C21-1
+Removed Pin From Net: NetName=GND Pin=R11-1
+Change Net Color : Old Net Color=RGB(253, 131, 0) New Net Color=Default
+Change Net Color : Old Net Color=RGB(0, 156, 202) New Net Color=Default
+Added Pin To Net: NetName=EARTH Pin=C21-1
+Added Pin To Net: NetName=EARTH Pin=MH1-1
+Added Pin To Net: NetName=EARTH Pin=MH4-1
+Added Pin To Net: NetName=EARTH Pin=R11-1
+Added Net: Name=EARTH
+Added Member To Class: ClassName=[3] - STM32F103_Debugger Member=Component J1 USB2.0 MINI B
+Added Member To Class: ClassName=[6] - CH340C Member=Component J5 USB2.0 MINI B
+Added Rule: Name=Schematic Supply Nets

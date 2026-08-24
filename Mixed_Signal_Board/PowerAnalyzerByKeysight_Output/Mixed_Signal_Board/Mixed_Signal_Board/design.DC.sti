@@ -1,0 +1,71 @@
+StiFile 1.2
+# File generated on Sun Aug 23 22:51:27 2026
+
+Electric 1:
+  name: "U10"
+  voltage: 3.3
+  current: -0.205007
+  pluspin: 1  voltage: 3.3  current: -0.00425986  name: "U10-2"
+  pluspin: 2  voltage: 3.3  current: -0.200747  name: "U10-4"
+  minpin: 3  voltage: 2.05007e-06  current: 0.205007  name: "U10-1"
+
+Electric 2:
+  name: "NetC82_2-U10"
+  voltage: 11.9673
+  current: 0.205019
+  pluspin: 4  voltage: 11.9673  current: 0.205019  name: "U10-3"
+  minpin: 3  voltage: 2.05007e-06  current: -0.205019  name: "U10-1"
+
+Electric 3:
+  name: "J11"
+  voltage: 11.9998
+  current: -6.20504
+  pluspin: 5  voltage: 11.9891  current: -6.20504  name: "J11-1"
+  minpin: 6  voltage: -0.0106804  current: 6.20504  name: "J11-3"
+
+Electric 4:
+  name: "Q1"
+  voltage: 11.9192
+  current: 3.00001
+  pluspin: 8  voltage: 11.9266  current: 0.19701  name: "Q1-2"
+  pluspin: 7  voltage: 11.9266  current: 0.193951  name: "Q1-11"
+  pluspin: 9  voltage: 11.9266  current: 2.60905  name: "Q1-15"
+  minpin: 10  voltage: 0.00736453  current: -3.00001  name: "R19-1"
+
+Electric 5:
+  name: "Q2"
+  voltage: 11.9172
+  current: 3.00001
+  pluspin: 11  voltage: 11.9265  current: 0.141584  name: "Q2-2"
+  pluspin: 13  voltage: 11.9265  current: 0.265278  name: "Q2-11"
+  pluspin: 12  voltage: 11.9265  current: 2.59315  name: "Q2-15"
+  minpin: 14  voltage: 0.00935969  current: -3.00001  name: "R43-1"
+
+Electric 6:
+  name: "D5"
+  voltage: 6.15056e-06
+  current: 0.205019
+  pluspin: 15  voltage: 11.9679  current: 0.205019  name: "D5-A"
+  minpin: 16  voltage: 11.9679  current: -0.205019  name: "D5-K"
+
+Electric 7:
+  name: "U1"
+  voltage: 3.30156
+  current: 0.150003
+  pluspin: 19  voltage: 3.29929  current: 0.0414282  name: "U1-1"
+  pluspin: 20  voltage: 3.29929  current: 0.0198871  name: "U1-9"
+  pluspin: 17  voltage: 3.29929  current: 0.0166932  name: "U1-23"
+  pluspin: 18  voltage: 3.29929  current: 0.0447433  name: "U1-36"
+  pluspin: 21  voltage: 3.29929  current: 0.0272516  name: "U1-48"
+  minpin: 24  voltage: -0.00226294  current: 0.154043  name: "U1-8"
+  minpin: 22  voltage: -0.00226803  current: -0.354818  name: "U1-24"
+  minpin: 23  voltage: -0.00226429  current: 0.0186996  name: "U1-35"
+  minpin: 25  voltage: -0.00226416  current: 0.0320727  name: "U1-47"
+
+Electric 8:
+  name: "U2"
+  voltage: 3.30044
+  current: 0.0550033
+  pluspin: 26  voltage: 3.29903  current: 0.0550033  name: "U2-17"
+  minpin: 27  voltage: -0.00140838  current: -0.0550033  name: "U2-33"
+

@@ -1,0 +1,5 @@
+Add Pin To Net: Pin=J2-3 Old Net=NetJ2_3 New Net=JTCK/SWCLK
+Add Pin To Net: Pin=J2-4 Old Net=JTDI New Net=JTMS/SWDIO
+Add Pin To Net: Pin=J2-5 Old Net=NetJ2_5 New Net=JTDO
+Change Pin Designator/Name:  Old Designator=J2-2 Old Name=2 New Designator =1 New Name=1
+Change Pin Designator/Name:  Old Designator=J2-4 Old Name=4 New Designator =2 New Name=2

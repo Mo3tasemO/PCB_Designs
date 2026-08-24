@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=DVDD Pin=R44-2
+Removed Pin From Net: NetName=DVDD Pin=R45-2
+Added Pin To Net: NetName=DVDD_2 Pin=R44-2
+Added Pin To Net: NetName=DVDD_2 Pin=R45-2
